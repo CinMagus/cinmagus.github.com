@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Miraculous Crack Ship Generator</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="shipping.js"></script>
+	</head>
+	<body>
+		<div id="all">
+			<h1>It's a Match!</h1>
+			
+			<h2>Click the button below to get started</h2>
+			
+			<div id="partners">
+				<figure>
+					<img src="images/adrien.png" width="200px" height="200px" />
+					<figcaption>Adrien Agreste</figcaption>
+				</figure>
+				
+				<figure>
+					<img src="images/marinette.png" width="200px" height="200px" />
+					<figcaption>Marinette Dupain-Cheng</figcaption>
+				</figure>
+			</div>
+			
+			<form action="javascript:void(0);">
+				<div class="rows">
+					<div class="row">
+						<input type="checkbox" id="crack-only" name="crack-only" value="crack-only" checked="checked" />
+						<label for="crack-only">Crack ships only</label>
+					</div>
+					
+					<div class="row">
+						<input type="checkbox" id="ff" name="ff" value="ff" checked="checked" />
+						<label for="crack-only">F/F</label>
+						<input type="checkbox" id="mf" name="mf" value="mf" checked="checked" />
+						<label for="crack-only">M/F</label>
+						<input type="checkbox" id="mm" name="mm" value="mm" checked="checked" />
+						<label for="crack-only">M/M</label>
+					</div>
+					
+					<div class="row">
+						<button type="button" onclick="nextShip()">Ship!</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
